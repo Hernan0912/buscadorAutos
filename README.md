@@ -1,4 +1,4 @@
 Tecnologías usadas: HTML | CSS | JavaScript
 
-Link to Netlify:
+Proyecto subido a Netlify:
 https://master--buscadordeautoshernan.netlify.app/

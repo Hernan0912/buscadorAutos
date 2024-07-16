@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div class="contenedor">
+            <h1 class="titulo">Buscador de autos</h1>
+            <article>
+                <section class="contenedorCampos">
+                    <div class="seleccion" class="seleccion">
+                        <label for="marca">Marca</label>
+                        <select class="campos marca" name="marca" id="marca">
+                            <option value="">Seleccione</option>
+                            <option value="Fiat">Fiat</option>
+                            <option value="Peugeot">Peugeot</option>
+                            <option value="Toyota">Toyota</option>
+                            <option value="Chevrolet">Chevrolet</option>
+                        </select>
+                    </div>
+
+                    <div class="seleccion">
+                        <label for="modelo">Modelo</label>
+                        <select class="campos modelo" name="modelo" id="modelo">
+                            <option value="">Seleccione</option>
+                            <option value="Cronos">Cronos</option>
+                            <option value="208">208</option>
+                            <option value="Yaris">Yaris</option>
+                            <option value="Onix">Onix</option>
+                            <option value="207">207</option>
+                            <option value="Toro">Toro</option>
+                            <option value="Spin">Spin</option>
+                            <option value="Argo">Argo</option>
+                        </select>
+                    </div>
+
+                    <div class="seleccion">
+                        <label for="year">Año</label>
+                        <select class="campos year inicio" name="year" id="year">
+                            <option value="">Seleccione</option>
+                        </select>
+                    </div>
+
+                    <div class="seleccion">
+                        <label for="color">Color</label>
+                        <select class="campos color" name="color" id="color">
+                            <option value="">Seleccione</option>
+                            <option value="Negro">Negro</option>
+                            <option value="Azul">Azul</option>
+                            <option value="Blanco">Blanco</option>
+                            <option value="Gris">Gris</option>
+                            <option value="Rojo">Rojo</option>
+                        </select>
+                    </div>
+
+                    <div class="seleccion">
+                        <label for="transmision">Transmisión</label>
+                        <select class="campos transmision" name="transmision" id="transmision">
+                            <option value="">Seleccione</option>
+                            <option value="Automática">Automática</option>
+                            <option value="Manual">Manual</option>
+                        </select>
+                    </div>
+
+                    <div class="seleccion">
+                        <label for="puertas">Puertas</label>
+                        <select class="campos puertas" name="puertas" id="puertas">
+                            <option value="">Seleccione</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+
+                    <div class="seleccion">
+                        <label for="minimo">Mínimo</label>
+                        <select class="campos minimo" name="minimo" id="minimo">
+                            <option value="">Seleccione</option>
+                            <option value="20000000">20000000</option>
+                            <option value="15000000">15000000</option>
+                            <option value="8000000">8000000</option>
+                        </select>
+                    </div>
+
+                    <div class="seleccion">
+                        <label for="maximo">Máximo</label>
+                        <select class="campos maximo" name="maximo" id="maximo">
+                            <option value="">Seleccione</option>
+                            <option value="25000000">25000000</option>
+                            <option value="19000000">19000000</option>
+                            <option value="14000000">14000000</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <button class="limpiarFiltros">Limpiar filtros</button>
+                    </div>
+
+                </section>
+            </article>
+        </div>
+        <div>
+            <h2 class="titulo">Resultados</h2>
+            <div id="resultados"></div>
+        </div>
+    </main>
+</body>
+<script src="./autos.js"></script>
+<script src="./main.js"></script>
+</html>
